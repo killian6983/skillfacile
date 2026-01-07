@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    max-width: 1440px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap:15px;
+    padding:15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+}
+
+header nav ul a{
+    color:#000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header nav ul a:hover,
+header nav ul .active{
+    color:#000;
+    transition: 0.3s;
+}
+
+header img{
+    width: 250px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    background-color: #363450;
+    color: #fff;
+    list-style: none;
+}
+
+footer .class1 h2{
+    margin-bottom: 15px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li{
+    margin-bottom: 25px;
+}
+
+footer h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
