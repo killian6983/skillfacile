@@ -111,9 +111,16 @@ main p{
     line-height: 24px;
     vertical-align: middle;
     color: #423B73;
+    margin-top: 35px;
 }
 
 main div.class1{
-    text-align: center;
-    
+    align-self: center;
+    width: 400px;
+    margin: auto;
+}
+
+main div.class2 img{
+    width: 100%;
+    padding: 50px;
 }
