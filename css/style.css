@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 *{
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -29,23 +33,23 @@ header nav ul a{
     transition: 0.3s;
 }
 
-header nav ul a:hover,
-header nav ul .active{
-    color:#000;
-    transition: 0.3s;
+header nav ul a:hover,{
+    color: #61ce70;
+    transition: ease-in-out 0.3s;
 }
 
 header img{
     width: 250px;
 }
 
-footer{
+footer article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px;
     background-color: #363450;
     color: #fff;
     list-style: none;
+    padding: 50px 40px;
 }
 
 footer .class1 h2{
@@ -55,6 +59,12 @@ footer .class1 h2{
 footer li a{
     text-decoration: none;
     color: #fff;
+    transition: 0.3s;
+}
+    
+footer li a:hover{
+    color:#61ce70;;
+    transition: ease-in-out 0.3s;
 }
 
 footer li{
@@ -64,4 +74,46 @@ footer li{
 footer h2{
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+footer .class5 p{
+    text-align: center;
+    padding: 30px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main h2{
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #E34E67;
+}
+
+main h1{
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    vertical-align: middle;
+    color: #423B73;
+}
+
+main p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #423B73;
+}
+
+main div.class1{
+    text-align: center;
+    
 }
