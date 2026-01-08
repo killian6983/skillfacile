@@ -80,12 +80,12 @@ footer .class5 p{
     text-align: center;
     padding: 30px;
 }
-main{
+main #sec1{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-main h2{
+main #sec1 h2{
     font-family: Pacifico;
     font-weight: 400;
     font-size: 23px;
@@ -95,7 +95,7 @@ main h2{
     color: #E34E67;
 }
 
-main h1{
+main #sec1 h1{
     font-family: Oswald;
     font-weight: 700;
     font-size: 38px;
@@ -104,7 +104,7 @@ main h1{
     color: #423B73;
 }
 
-main p{
+main #sec1 p{
     font-family: Open Sans;
     font-weight: 400;
     font-size: 16px;
@@ -114,13 +114,13 @@ main p{
     margin-top: 35px;
 }
 
-main div.class1{
+main #sec1 div.class1{
     align-self: center;
     width: 400px;
     margin: auto;
 }
 
-main div.class2 img{
+main #sec1 div.class2 img{
     width: 100%;
     padding: 50px;
 }
