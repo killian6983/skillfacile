@@ -108,6 +108,7 @@ main #sec1 p{
     font-family: Open Sans;
     font-weight: 400;
     font-size: 16px;
+
     line-height: 24px;
     vertical-align: middle;
     color: #423B73;
@@ -121,6 +122,11 @@ main #sec1 div.class1{
 }
 
 main #sec1 div.class2 img{
-    width: 100%;
+    width: 70%;
     padding: 50px;
+}
+
+
+main #sec1 li a{
+    text-decoration: none;
 }
